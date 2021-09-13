@@ -132,14 +132,14 @@ const tasks = [];
     article.textContent = body;
     article.classList.add('mt-2', 'w-100');
 
-    const completeBtn = document.createElement('button');
-    completeBtn.textContent = 'Completed';
-    completeBtn.classList.add('btn', 'btn-success', 'ml-auto', 'complete-btn');
+    // const completeBtn = document.createElement('button');
+    // completeBtn.textContent = 'Completed';
+    // completeBtn.classList.add('btn', 'btn-success', 'ml-auto', 'complete-btn');
 
     li.appendChild(span);
     li.appendChild(deleteBtn);
     li.appendChild(article);
-    li.appendChild(completeBtn);
+    // li.appendChild(completeBtn);
     
     return li;
   };
